@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Myle - Fanpage von Marvin</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #ffffff;
+    }
+    header {
+      background-color: #c8102e; /* Dunkelrot */
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3em;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #282828; /* Dunkelgrau */
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    .menu-button {
+      background-color: #282828; /* Dunkelgrau */
+      color: #ffffff;
+      border: none;
+      padding: 15px;
+      font-size: 1em;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+    }
+    .menu-button:hover {
+      background-color: #c8102e; /* Dunkelrot */
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #282828; /* Dunkelgrau */
+      min-width: 160px;
+      box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    .dropdown-content a {
+      color: white;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    .dropdown-content a:hover {
+      background-color: #c8102e; /* Dunkelrot */
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .hero {
+      background-image: url('https://example.com/hero-image.jpg'); /* Ersetze durch ein tatsächliches Bild */
+      background-size: cover;
+      background-position: center;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero h2 {
+      color: #ffffff;
+      font-size: 3em;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    .content {
+      padding: 20px;
+      max-width: 800px; /* Maximale Breite für den Inhalt */
+      margin-left: auto; /* Zentriert den Inhalt */
+      margin-right: auto; /* Zentriert den Inhalt */
+    }
+    footer {
+      background-color: #282828; /* Dunkelgrau */
+      color: #ffffff;
+      text-align:center ;
+       padding :10px ; 
+     }  
+
+     p { 
+        margin-bottom :20px ;  
+        line-height :1.6 ; 
+     }
+
+   </style>
+</head>
+<body>
+
+<header>
+   <h1>Myle</h1>
+</header>
+
+<nav>
+   <div class="dropdown">
+     <button class="menu-button">Menü</button>
+     <div class="dropdown-content">
+       <a href="#about">Über mich</a>
+       <a href="myle.info.html">Infos über Myle</a>       <!-- Link zur neuen Seite -->
+       <a href="myle.team.html">infos über Myle team </a>
+       
+         
+     </div>
+   </div>
+</nav>
+
+<div class="hero">
+   <h2>Willkommen auf meiner Fanpage!</h2>
+</div>
+
+<div class="content" id="about">
+   <h3>Über mich - Marvin</h3>
+   <p>Hallo! Ich bin Marvin, 17 Jahre alt und komme aus Hamburg. Musik ist meine Leidenschaft, und Myle ist für mich mehr als nur ein Künstler – er inspiriert mich mit seinen Texten und Melodien.</p>
+
+   <p>Ich verbinde mit seiner Musik Momente der Freude und des Nachdenkens. Seine Songs begleiten mich durch verschiedene Lebenslagen und geben mir das Gefühl, nicht allein zu sein.</p>
+
+   <p>Seine Musik motiviert mich und gibt mir Kraft in schwierigen Zeiten. Ich liebe es, seine Lieder zu hören, während ich mit Freunden abhänge oder einfach nur entspanne.</p>
+
+   <p>Ich hoffe, dass diese Fanpage anderen Fans von Myle hilft, mehr über ihn zu erfahren und sich mit seiner Musik zu verbinden!</p>
+</div>
+
+<footer>
+   &copy;2024 Marvin's Fanpage für Myle. Alle Rechte vorbehalten.
+</footer>
+
+</body>
+</html>
